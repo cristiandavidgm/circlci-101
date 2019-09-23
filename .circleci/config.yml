@@ -6,3 +6,9 @@ jobs:
         steps: 
             - checkout
             - run: echo "A first hello"
+    test_speed: 
+        docker: 
+            - image: circleci/ruby:2.4.1
+        steps: 
+            - checkout
+            - run: echo "test speed"
