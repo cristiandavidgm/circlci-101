@@ -3,19 +3,19 @@
     "assert": {
       "assertMatrix": [
         {
-          "matchingUrlPattern": "propiedades/medellin",
+          "matchingUrlPattern": "https://[^/]+.com/propiedades/medellin$",
           "assertions": {
             "categories:performance": ["warn", {"minScore": 0.9}]
           }
         },
         {
-          "matchingUrlPattern": "p/cioccolato/medellin",
+          "matchingUrlPattern": "https://[^/]+.com/p/cioccolato/medellin$",
           "assertions": {
             "categories:performance": ["warn", {"minScore": 0.9}]
           }
         },
         {
-          "matchingUrlPattern": ".*",
+          "matchingUrlPattern": "https://[^/]+.com/$",
           "assertions": {
             "categories:performance": ["warn", {"minScore": 0.9}]
           }
