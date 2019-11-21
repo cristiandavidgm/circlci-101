@@ -10,3 +10,5 @@ jobs:
         with:
           urls: |
             https://sobreplanos-staging.herokuapp.com/
+          configPath: './lighthouserc.json'
+          runs: 5
