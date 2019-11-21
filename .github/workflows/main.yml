@@ -1,5 +1,5 @@
 name: Lighthouse
-on: repository_dispatch
+on: status
 jobs:
   lighthouse:
     runs-on: ubuntu-latest
