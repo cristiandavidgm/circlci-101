@@ -1,0 +1,22 @@
+{
+  "assertMatrix": [
+    {
+      "matchingUrlPattern": "propiedades/medellin",
+      "assertions": {
+        "categories:performance": ["warn", {"minScore": 0.9}]
+      }
+    },
+    {
+      "matchingUrlPattern": "p/cioccolato/medellin",
+      "assertions": {
+        "categories:performance": ["warn", {"minScore": 0.9}]
+      }
+    },
+    {
+      "matchingUrlPattern": ".*",
+      "assertions": {
+        "categories:performance": ["warn", {"minScore": 0.9}]
+      }
+    }
+  ]
+}
