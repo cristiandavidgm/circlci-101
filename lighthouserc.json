@@ -1,26 +1,9 @@
 {
   "ci": {
     "assert": {
-      "assertMatrix": [
-        {
-          "matchingUrlPattern": "https://[^/]+.com/propiedades/medellin$",
-          "assertions": {
-            "categories:performance": ["warn", {"minScore": 0.9}]
-          }
-        },
-        {
-          "matchingUrlPattern": "https://[^/]+.com/p/cioccolato/medellin$",
-          "assertions": {
-            "categories:performance": ["warn", {"minScore": 0.9}]
-          }
-        },
-        {
-          "matchingUrlPattern": "https://[^/]+.com/$",
-          "assertions": {
-            "categories:performance": ["warn", {"minScore": 0.9}]
-          }
-        }
-      ]
+      "assertions": {
+        "categories:performance": ["warn", {"minScore": 0.9}]
+      }
     }
   }
 }
